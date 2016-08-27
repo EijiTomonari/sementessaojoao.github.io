@@ -31,6 +31,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	font-family: "Trebuchet MS", Helvetica, sans-serif; 
 }
 ol, ul {
 	list-style: none;
@@ -46,4 +47,172 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+
+/* GENERAL -------------------------------------*/
+h1{font-size: 72px;}
+h2{font-size: 48px;}
+h3{font-size: 36px;}
+h4{font-size: 24px;}
+strong{font-weight: bolder;}
+
+/* MAIN STRUCTURE -------------------------------------*/
+.main-page{
+	width: 1200px;
+	margin: 0 auto;
+	min-height: 600px;
+}
+
+nav{
+    display: inline-block;
+    float: left;
+    margin: 70px 0 0 130px;
+}
+nav ul li{
+	display: inline-block;
+	padding: 0 10px;
+}
+nav ul{
+	list-style: none;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+/* HEADER & FOOTER -----------------------------------*/
+header{
+	width: 100%;
+	height: 150px;
+	background: url('images/headerbg.png');
+    background-size: cover;
+}
+footer{
+	width: 100%;
+	height: 150px;
+	background: url('images/footerbg.png');
+    background-size: cover;
+}
+.header-content{
+	text-align: center;
+	vertical-align: top;
+	background: url('images/home-banner-dark.jpg');
+    background-size: cover;
+}
+.header-content h1{
+	text-indent: -9999px;
+	background: url('images/logo.png');
+    width: 300px;
+    background-size: cover;
+    height: 150px;
+    float: left;
+    margin: 0 0 0 60px;
+}
+.content-wrapper{
+	height: 150px;
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.footer-content h4 {
+    float: left;
+    margin: 30px 0 0 50px;
+}
+.footer-content ul {
+    float: left;
+    margin: 64px 0 0 -85px;
+}
+.footer-content ul li{
+	font-size: 14px;
+	padding: 2px 0;
+}
+
+/* HOME PAGE ----------------------------------------*/
+.banner{
+	width: 100%;
+	height: 400px;
+	background: url('images/home-banner.jpg');
+	background-size: cover;
+    background-position: 0 -151px;
+}
+.banner h2 {
+    max-width: 430px;
+    float: left;
+    margin: 59px 0 0 33px;
+    color: #589c04;
+}
+.banner p {
+    float: left;
+    max-width: 443px;
+    margin: 165px 0 0 -430px;
+    padding: 10px;
+    color: #000;
+    font-size: 19px;
+}
+
+.columns {
+    width: 100%;
+    margin: 30px 0;
+}
+.columns-article {
+    display: inline-block;
+    width: 310px;
+    vertical-align: top;
+    box-shadow: 0px 0px 15px;
+    margin: 0 43px;
+    padding: 0 0 10px 0;
+}
+.article-header {
+    width: 100%;
+    height: 71px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    padding: 0px 0 0px 0px;
+    display: table;
+}
+.article-header h4 {
+    color: #fff;
+    display: table-cell;
+    vertical-align: middle;
+}
+.article-header img {
+    float: left;
+    margin: 4px 10px 0 10px;
+}
+.header1{
+	background-color: #254f00;
+}
+.na-cotacoes {
+    margin: 4px auto;
+    display: table;
+}
+tr img{
+	display: none;
+}
+.header2 {
+    background-color: #ee7909;
+}
+.header3 {
+    background-color: #00213d;
+}
+
+/* PAGE -------------------------------------------*/
+.page-title {
+    text-align: center;
+    max-width: 220px;
+    margin: 30px auto 0;
+    padding: 10px;
+    border-bottom: 3px solid #1b4600;
+}
+.regular-page{
+	width: 1070px;
+}
+.regular-page p{
+	margin: 25px 0;
+    line-height: normal;
+}
+.map{
+	padding: 20px;
 }
