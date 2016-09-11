@@ -216,3 +216,7 @@ tr img{
 .map{
 	padding: 20px;
 }
+
+.img-thumb{
+    vertical-align: middle;
+}
