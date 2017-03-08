@@ -197,6 +197,12 @@ tr img{
 .header3 {
     background-color: #00213d;
 }
+.dep{
+    padding: 4px 10px;
+}
+.article3 a{
+    padding: 0 10px;
+}
 
 /* PAGE -------------------------------------------*/
 .page-title {
@@ -220,4 +226,15 @@ tr img{
 .img-thumb{
     vertical-align: middle;
     padding: 10px;
+}
+.dep_article{
+    padding: 50px 0;
+    width: 75%;
+    margin: 0 auto;
+}
+.dep_article img{
+    margin: 0 auto;
+}
+.dep_article h5{
+    font-weight: bolder;
 }
